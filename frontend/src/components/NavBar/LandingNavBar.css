@@ -1,0 +1,61 @@
+.nav-container {
+    display: flex;
+    background-color: rgb(220, 217, 217);
+    /* Add a background color for the navigation bar */
+    padding: 10px;
+    position: relative;
+    height: 2rem;
+    margin-bottom: 1rem;
+}
+
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    justify-content: space-between;
+}
+
+
+
+/* .nav-list li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s;
+} */
+
+.nav-list li a:hover {
+    color: #007bff;
+}
+
+/* .login-button{
+    position: fixed;
+    right: 0;
+    top: 1;
+    margin-right: 10px;
+
+}
+
+.home-button{
+    position: fixed;
+    left: 0;
+    top: 1;
+    margin-left: 10px;
+} */
+
+/* .login-button { */
+/* background-color: #007bff;
+    border: 2px solid #007bff;
+    color: #fff;
+    font-size: 16px;
+    padding: 8px 16px;
+    cursor: pointer; */
+/* display: flex; */
+/* } */
+.nav-container-wrapper {
+
+    display: flex;
+}

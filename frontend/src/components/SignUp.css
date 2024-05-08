@@ -1,0 +1,90 @@
+.main {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+  
+  .sub-main {
+    display: flex;
+    flex-direction: column; /* Updated to a column layout */
+    justify-content: center;
+    height: 550px;
+    width: 35%;
+    border-radius: 2rem;
+    background-color: white;
+  }
+  
+  .imgs {
+    padding-top: 20px;
+    justify-content: center;
+    display: flex;
+  }
+  
+  .container-image {
+    background-color: rgb(223, 221, 221);
+    border-radius: 50%; /* Updated to a circular shape */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+  }
+  
+  .profile {
+    height: 80px; /* Adjusted the size */
+    width: 80px; /* Adjusted the size */
+    border-radius: 50%; /* Make it a circle */
+  }
+  
+  input {
+    width: 300px;
+    height: 40px; /* Adjusted the size */
+    border-radius: 25px; /* Adjusted the border-radius */
+    box-shadow: inset 0px 0px 15px 0px #888; /* Adjusted the box-shadow */
+    border: none;
+    outline: none;
+    background-color: #fff;
+    margin: 10px 0; /* Added margin for spacing */
+  }
+  
+  .email {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    padding: 20px 0 0 15px; /* Adjusted the padding */
+  }
+  
+  .name {
+    padding-left: 40px;
+    font-size: 18px; /* Adjusted the font size */
+  }
+  
+  .second-input {
+    padding-top: 15px; /* Adjusted padding */
+  }
+  
+  button {
+    width: 300px;
+    height: 40px; /* Adjusted the size */
+    border-radius: 25px; /* Adjusted the border-radius */
+    /* background-color: #b103fc; */
+    color: white;
+    font-size: 20px; /* Adjusted the font size */
+    border: none;
+  }
+  
+  .login-button {
+    padding-top: 20px; /* Adjusted padding */
+  }
+  
+  .link {
+    font-size: 20px; /* Adjusted the font size */
+    font-weight: 400;
+  }
+  
+  a {
+    color: blue;
+  }
+  

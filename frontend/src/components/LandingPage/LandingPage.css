@@ -1,0 +1,392 @@
+/* Global Styles */
+.intellihire {
+  font-family: 'Inter', sans-serif;
+  position: relative;
+}
+
+.intellihire-content p {
+  letter-spacing: 3px;
+  /* Increase the spacing between words */
+  font-size: 1.3rem;
+  /* Increase the font size */
+  line-height: 1.6;
+  /* Increase the line height for better readability */
+  font-family: Arial, Helvetica, sans-seri;
+  /* Change the font family for the main content */
+}
+
+/* Header Styles */
+.intellihire-header {
+  margin: 0 0.5rem;
+  margin-top: 0.3rem;
+  /* background-color: #E1F7F5; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.intellihire-logo img {
+  height: auto;
+  width: 13rem;
+  /* Adjust the width as needed */
+}
+
+.intellihire-slogan {
+  font-size: 1.5rem;
+  color: #444;
+}
+
+.intellihire-menu {
+  font-size: 24px;
+  background: none;
+  border: white;
+  cursor: pointer;
+  color: black;
+}
+
+/* Main Content Styles */
+.intellihire-main {
+  text-align: center;
+
+}
+
+/* .intellihire-hero{
+    background-image: url("../../images/bg.jpeg");
+  } */
+/* Hero Section Styles */
+.intellihire-hero {
+  background-color: #ffffff;
+}
+
+.intellihire-hero h1 {
+  color: #1E0342;
+  font-size: 3rem;
+  line-height: 1.4;
+}
+
+/* Button Styles */
+.intellihire-btn {
+  margin: 20px;
+  padding: 10px 20px;
+  color: white;
+  background-color: #1E0342;
+  border: none;
+  border-radius: 30px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 10rem;
+}
+
+.landing-buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.intellihire-btn-secondary {
+  background-color: #1E0342;
+  /* Set "Get Started" button to black */
+}
+
+.intellihire-btn:hover {
+  background-color: #1E0342;
+}
+
+.intellihire-btn-secondary:hover {
+  background-color: #1E0342;
+  /* Adjust hover color for "Get Started" button */
+}
+
+/* Content Section Styles */
+.intellihire-content {
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 10rem;
+  text-align: left;
+  /* Align content to the left */
+}
+
+.content-right img {
+  width: 40vw;
+  height: auto;
+}
+
+/* .intellihire-content{
+    background-image: url("../../images/3d.jpeg");
+    background-size: cover; /* Ensure the background image covers the entire container */
+/* background-position: center; /* Center the background image */
+/* background-repeat: no-repeat; */
+*/
+/* padding: 50px 50px; Adjust padding as needed */
+/* text-align: center; Center the content horizontally */
+/* color: white; Set the text color */
+/* font-size: 1.5rem;
+  
+  /* } */
+
+.intellihire-content-title {
+  color: #1E0342;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+/* Features Section Styles */
+.intellihire-features {
+  padding: 50px 20px;
+}
+
+.intellihire-features-title {
+  text-decoration: underline;
+  font-size: 2rem;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.intellihire-feature-cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.intellihire-feature-card {
+  width: 300px;
+  height: 300px;
+  background-color: #9AC8CD;
+  border-radius: 25px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.intellihire-feature-card img {
+  max-width: 80px;
+  margin-bottom: 20px;
+}
+
+.intellihire-feature-card h3 {
+  font-size: 1.5rem;
+  color: #1E0342;
+}
+
+/* Footer Styles */
+/* Footer Styles */
+.intellihire-footer {
+  background-color: #1E0342;
+  color: white;
+  padding: 50px 20px;
+  text-align: center;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.footer-link {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.2s ease-in;
+  display: inline-block;
+  /* Ensure icons are separated by spaces */
+}
+
+.intellihire-paragraph {
+  font-family: 'Inter', sans-serif;
+}
+
+.footer-link:hover {
+  color: #aaa;
+  transform: translateY(-2px);
+  /* Move the link up slightly on hover */
+}
+
+.footer-link::after {
+  content: '';
+  /* Create a pseudo-element */
+  display: block;
+  width: 0;
+  height: 2px;
+  background-color: white;
+  transition: width 0.3s;
+  /* Transition the width for animation */
+}
+
+.footer-link:hover::after {
+  width: 100%;
+  /* Expand the line on hover */
+}
+
+/* Additional styles for social media icons */
+.footer-social-media {
+  display: flex;
+  gap: 20px;
+  /* Adjust the spacing between the social media icons */
+  margin-bottom: 1rem;
+  /* Adjust margin for better spacing */
+}
+
+.social-media-link {
+  color: #fff;
+}
+
+.social-media-link img {
+  width: 30px;
+  /* Adjust the size of the social media icons */
+  height: 30px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  /* Adjustments for smaller screens */
+}
+
+/* For medium breakpoint */
+@media (min-width: 768px) {
+  /* Adjustments for medium screens */
+}
+
+/* Additional Styles */
+.ita {
+  font-size: larger;
+  font-weight: 200;
+}
+
+.header1 {
+  margin: 0;
+}
+
+.intellihire-slogan {
+  font-size: medium;
+  position: relative;
+  top: -30px;
+}
+
+.hamburger-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  z-index: 10;
+  /* Ensure it's above other elements */
+}
+
+.bar {
+  width: 100%;
+  height: 3px;
+  background-color: #000;
+  /* Adjust color as needed */
+  transition: transform 0.3s, opacity 0.3s;
+}
+
+.bar.active:nth-child(1) {
+  transform: translateY(6px) rotate(45deg);
+}
+
+.bar.active:nth-child(2) {
+  opacity: 0;
+}
+
+.bar.active:nth-child(3) {
+  transform: translateY(-6px) rotate(-45deg);
+}
+
+.intellihire-menu {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  /* Initially hide the menu off-screen */
+  width: 220px;
+  /* Adjust the width as needed */
+  height: 100vh;
+  background-color: #000;
+  /* Adjust the background color */
+  padding: 20px;
+  transition: right 0.5s ease;
+  /* Add transition for smooth sliding effect */
+}
+
+.intellihire-menu.open {
+  right: 0;
+  /* Slide the menu in from the right when it's open */
+}
+
+.intellihire-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.intellihire-menu li {
+  margin-bottom: 10px;
+}
+
+.intellihire-menu a {
+  text-decoration: none;
+  color: #fff;
+  /* Adjust the text color */
+  font-size: 18px;
+  /* Adjust the font size */
+  display: block;
+  /* Make the links block-level elements for better spacing */
+  transition: color 0.3s ease;
+  /* Add transition for smooth color change on hover */
+}
+
+.intellihire-menu a:hover {
+  color: #00df9a;
+  /* Change text color on hover */
+}
+
+.item-menu a {
+  color: white;
+}
+
+/* .cont{
+    background-image: url("../../images/bg.jpeg");
+  } */
+.cont .hero-background {
+  background: #9AC8CD;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
+  color: white;
+  font-size: 1.5rem;
+  gap: 1rem;
+}
+
+.header1 {
+  position: absolute;
+  left: 1rem;
+}
+
+.header2 {
+  margin-top: 4rem;
+  margin-left: 1rem;
+  color: #1E0342;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10rem;
+}

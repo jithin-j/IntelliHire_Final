@@ -1,0 +1,18 @@
+.my-tasks {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 40rem;
+    border-radius: 1.5rem;
+    padding: 1rem;
+}
+
+.task-container {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.tasks-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

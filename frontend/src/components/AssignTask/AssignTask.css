@@ -1,0 +1,72 @@
+/* AssignTask.css */
+
+.assign-task-container {
+    padding-top: 2rem;
+    background: #E1F7F5;
+    height: 100vh;
+}
+
+.assign-task-form {
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    max-width: 60vw;
+    margin: auto;
+    gap: 1rem;
+    background-color: #ffffff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 2rem;
+}
+
+#description {
+    height: 7rem;
+}
+
+.assign-task-title {
+    font-size: 24px;
+    margin-bottom: 1rem;
+    color: #1E0342;
+}
+
+.assign-task-field {
+    margin-bottom: 1rem;
+}
+
+.assign-task-label {
+    font-weight: bold;
+}
+
+.assign-task-input,
+.assign-task-textarea,
+.assign-task-select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    margin-bottom: 8px;
+    box-sizing: border-box;
+}
+
+.assign-task-button {
+    padding: 10px;
+    background-color: #0E46A3;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.assign-task-button:hover {
+    background-color: #0056b3;
+}
+
+.assign-task-message {
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+.success-message {
+    color: green;
+}
+
+.error-message {
+    color: red;
+}

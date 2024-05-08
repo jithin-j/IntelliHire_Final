@@ -1,0 +1,43 @@
+.nav-containerr {
+    display: flex;
+    background-color: #fff;
+    /* Add a background color for the navigation bar */
+    position: relative;
+    overflow-x: hidden;
+    width: 100vw;
+    /* Hide horizontal scrollbar */
+}
+
+.admin-nav-list {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 10px;
+    justify-content: space-between;
+    width: 98vw;
+    align-content: center;
+}
+
+.welcome {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.nav-list li {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.nav-list li a:hover {
+    color: #007bff;
+}

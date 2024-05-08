@@ -1,0 +1,17 @@
+.tasks_container {
+    padding: 1rem;
+    background: #E1F7F5;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.tasks_container h1 {
+    color: #1E0342;
+}
+
+.tasks_wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: space-around;
+}

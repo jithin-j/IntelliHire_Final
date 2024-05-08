@@ -1,0 +1,35 @@
+.rank-results {
+    padding: 2rem;
+    width: 90vw;
+}
+
+.progress-bar {
+    width: 25rem;
+}
+
+.score-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.resume_data {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4rem;
+    width: 100vw;
+    justify-content: space-between;
+}
+
+.category-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.category-tags ul {
+    padding: 0;
+}

@@ -1,0 +1,40 @@
+/* FileUploadPage.css */
+
+/* Container styles */
+.form-upload-container {
+  padding: 5rem;
+  height: 100vh;
+  overflow-y: scroll;
+  background: #E1F7F5;
+}
+
+/* Dragger styles */
+.dragger {
+  border: none;
+  /* Remove border */
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  background-color: #fafafa;
+  cursor: pointer;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dragger p {
+  margin: 0;
+}
+
+/* Button styles */
+.uploadButton {
+  margin-top: 16px;
+}
+
+/* Button hover effect */
+.uploadButton:hover {
+  background-color: #1890ff;
+  border-color: #1890ff;
+}
